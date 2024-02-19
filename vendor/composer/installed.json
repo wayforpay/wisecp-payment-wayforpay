@@ -1,0 +1,211 @@
+{
+    "packages": [
+        {
+            "name": "anlutro/curl",
+            "version": "1.5.2",
+            "version_normalized": "1.5.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/anlutro/php-curl.git",
+                "reference": "1c569768a106dd40f5160ebebb703f09c6b58c8b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/anlutro/php-curl/zipball/1c569768a106dd40f5160ebebb703f09c6b58c8b",
+                "reference": "1c569768a106dd40f5160ebebb703f09c6b58c8b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "0.9.*",
+                "phpunit/phpunit": "4.*"
+            },
+            "time": "2023-06-27T07:39:41+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "anlutro\\cURL\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andreas Lutro",
+                    "email": "anlutro@gmail.com"
+                }
+            ],
+            "description": "Simple OOP cURL wrapper.",
+            "support": {
+                "issues": "https://github.com/anlutro/php-curl/issues",
+                "source": "https://github.com/anlutro/php-curl/tree/1.5.2"
+            },
+            "install-path": "../anlutro/curl"
+        },
+        {
+            "name": "easyframework/collections",
+            "version": "v3.2.0",
+            "version_normalized": "3.2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/italolelis/collections.git",
+                "reference": "7bc14d746d2781ef6bad82d87ab820398cf0a975"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/italolelis/collections/zipball/7bc14d746d2781ef6bad82d87ab820398cf0a975",
+                "reference": "7bc14d746d2781ef6bad82d87ab820398cf0a975",
+                "shasum": ""
+            },
+            "require": {
+                "easyframework/generics": "~2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.3",
+                "symfony/var-dumper": "2.6.*@dev"
+            },
+            "time": "2015-02-14T22:36:26+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.2-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Easy\\Collections\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ítalo Lelis de Vietro",
+                    "email": "italolelis@lellysinformatica.com"
+                }
+            ],
+            "description": "Easy Framework Collection Component",
+            "homepage": "https://github.com/LellysInformatica/collections",
+            "keywords": [
+                "collection",
+                "easy",
+                "framework",
+                "generics"
+            ],
+            "support": {
+                "issues": "https://github.com/italolelis/collections/issues",
+                "source": "https://github.com/italolelis/collections/tree/3.2"
+            },
+            "abandoned": true,
+            "install-path": "../easyframework/collections"
+        },
+        {
+            "name": "easyframework/generics",
+            "version": "v2.1.1",
+            "version_normalized": "2.1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/italolelis/generics.git",
+                "reference": "aa473480dc68b0daf9de4387a22a32cf254489e8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/italolelis/generics/zipball/aa473480dc68b0daf9de4387a22a32cf254489e8",
+                "reference": "aa473480dc68b0daf9de4387a22a32cf254489e8",
+                "shasum": ""
+            },
+            "time": "2015-12-17T15:36:11+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ítalo Lelis de Vietro",
+                    "email": "italolelis@lellysinformatica.com"
+                }
+            ],
+            "description": "Easy Framework Generics Component",
+            "homepage": "http://easyframework.net/",
+            "keywords": [
+                "easy",
+                "framework",
+                "generics"
+            ],
+            "support": {
+                "issues": "https://github.com/italolelis/generics/issues",
+                "source": "https://github.com/italolelis/generics/tree/master"
+            },
+            "abandoned": true,
+            "install-path": "../easyframework/generics"
+        },
+        {
+            "name": "wayforpay/php-sdk",
+            "version": "v1.0.11",
+            "version_normalized": "1.0.11.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wayforpay/php-sdk.git",
+                "reference": "c5d1348f771d43e1657990cf2eb68d9754f4fe35"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wayforpay/php-sdk/zipball/c5d1348f771d43e1657990cf2eb68d9754f4fe35",
+                "reference": "c5d1348f771d43e1657990cf2eb68d9754f4fe35",
+                "shasum": ""
+            },
+            "require": {
+                "anlutro/curl": "^1.4",
+                "easyframework/collections": "~3.2",
+                "ext-json": "*",
+                "php": ">= 5.3.3"
+            },
+            "time": "2020-07-30T11:22:34+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "WayForPay\\SDK\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vladislav Lyshenko",
+                    "email": "vladdnepr1989@gmail.com"
+                }
+            ],
+            "description": "Wayforpay PHP SDK",
+            "support": {
+                "issues": "https://github.com/wayforpay/php-sdk/issues",
+                "source": "https://github.com/wayforpay/php-sdk/tree/v1.0.11"
+            },
+            "install-path": "../wayforpay/php-sdk"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
